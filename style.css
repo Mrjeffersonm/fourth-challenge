@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card-header {
+    font-size: larger;
+}
+
+.answer {
+    background-color: plum;
+}
+
+.hidden {
+    display: none;
+}

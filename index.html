@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>
+            <h1>Quiz</h1>
+        </header>
+        <div class="card">
+            <div class="card-header">
+                <h2>Quiz Challenge</h2>
+            </div>  
+        </div>
+    </div>
+    <div id = "countdown"></div>
+    <button id = "generate" class="btn">Start Quiz</button>
+    <div class="quizcontainer">
+        <div class="questioncontainer hidden" id ="question1">
+            <div class="question">What is the best color?</div>
+            <button onclick="onQuestionAnswer(1,'Red')" class="answer">Red</button>
+            <button onclick="onQuestionAnswer(1,'Green')" class="answer">Green</button>
+            <button onclick="onQuestionAnswer(1,'Blue')" class="answer">Blue</button>
+            <button onclick="onQuestionAnswer(1,'Yellow')" class="answer">Yellow</button>
+        </div>
+        <div class="questioncontainer hidden" id ="question2">
+            <div class="question">What is the answer to everything?</div>
+            <button onclick="onQuestionAnswer(2,'65')" class="answer">65</button>
+            <button onclick="onQuestionAnswer(2,'412')" class="answer">412</button>
+            <button onclick="onQuestionAnswer(2,'42')" class="answer">42</button>
+            <button onclick="onQuestionAnswer(2,'1')" class="answer">1</button>
+        </div>
+        <div class="questioncontainer hidden" id ="question3">
+            <div class="question">What is 9 + 10?</div>
+            <button onclick="onQuestionAnswer(3,'21')" class="answer">21</button>
+            <button onclick="onQuestionAnswer(3,'19')" class="answer">19</button>
+            <button onclick="onQuestionAnswer(3,'17')" class="answer">17</button>
+            <button onclick="onQuestionAnswer(3,'15')" class="answer">15</button>
+        </div>
+    </div>
+    <div class="hidden" id ="nameinput">
+        <input type="text" id="name"></input>
+        <button onclick="addToLeaderboard()">Add to Leaderboard</button>
+    </div>
+    <div class="lbDisplay hidden" id="lbDisplay"></div>
+    <script src="script.js"></script>
+   
+  </body>
