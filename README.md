@@ -20,6 +20,7 @@ N/A
 
 Please refer to the LISCENSE in the repo.
 
-## Link
+## Links
 
 https://github.com/Mrjeffersonm/fourth-challenge
+https://mrjeffersonm.github.io/fourth-challenge/
